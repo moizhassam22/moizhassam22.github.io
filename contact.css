@@ -1,0 +1,120 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	margin:0;
+	padding: 0;
+}
+
+
+.container{
+	height: 50px;
+	width: 100%
+	margin: 0 auto;
+	background-color: white ;
+}
+
+.email{
+	float: left;
+	font-size: 20px;
+}
+
+.social a {
+	text-decoration: none;
+	color: black;
+}
+
+.social li{
+	font-size: 21px;
+	list-style: none;
+	float: left;
+margin-left:10px;
+padding-top: 03px;
+padding-right: 30px;
+}
+
+.social{
+	float:right;
+}
+
+#head{
+	height: 130px;
+	width: 100%;
+	background-color: #DAA520 ;
+}
+
+#nav a {
+	text-decoration: none;
+	color: black;
+}
+
+#nav li{
+font-size: 25px;
+list-style: none;
+float: left;
+margin-left:10px;
+padding-top: 37px;
+padding-right: 30px;
+color: black;
+}
+
+#nav{
+	float:right;
+}
+
+
+#logo{
+	padding-right: 50px;
+	padding-top: 21px;
+	float: left;
+	color: black;
+}
+
+
+#content {
+	background-color: #FFFAFA;
+}
+
+footer{
+	background-color: #000000;
+}
+  
+
+footer h4{
+margin:0;
+color:#555;
+text-transform: uppercase;
+font-size: 18px;
+}
+
+footer ul{
+	float: left;
+	width: 25%;
+	list-style-type: none;
+}
+
+footer: after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+footer li{
+	color:#aaa;
+	width: 80%;
+	margin:10px 0;
+	font-size:18px;
+    line-height: 1em;
+}
+
+#copyright{
+	clear:both;
+	padding-top: 30px;
+	margin-top: 30px;
+    text-align: center;
+	width: 100%;
+	border-top: 2px solid  #333;
+	color:#999;
+	font-size: 16px;
+}
